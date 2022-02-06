@@ -9,7 +9,7 @@ from tkinter import *
 
 #instantiate the tkinter class by creating an object 
 draw = Tk()
-draw.geometry('500*300')
+draw.geometry('500x300')
 draw.resizable(0,0)
 draw.title("welcome, please enter the link to download")
 label(draw, text="Download_me", font = 'Roboto 15 Bold').pack()
